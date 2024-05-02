@@ -25,9 +25,9 @@ Oliver Liu, Gamma Delta, 2024 - present
 1. Go to https://dev.groupme.com/ and get an access token
 2. Run `archive_chat.py --token [access token] --group-chat-id 30827774` on the command line
 3. Run `analysis.py`
-- You will need to update the file paths in analysis.py to match the folder created by archive_chat.py:
-    - Set `message_path` to `[chat name]/messages.json`
-    - Set `people_path` to `[chat name]/people.json`
+    - You will need to update the file paths in analysis.py to match the folder created by archive_chat.py:
+        - Set `message_path` to `[chat name]/messages.json`
+        - Set `people_path` to `[chat name]/people.json`
 4. Run `category_leaders.py`
 
 
