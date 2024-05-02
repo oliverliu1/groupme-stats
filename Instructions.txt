@@ -1,0 +1,55 @@
+ Makeshift GroupMe stats program.
+
+Please pass this down to some other nerds before you leave.
+I'm sure someday someone will have a better way of doing this, but it might be fun to keep the same file going.
+
+
+Former Keepers of the Code:
+------------------------------------------------
+Luke Boydstun - BPsi (2022-2023)
+
+
+
+------------------------------------------------
+INSTRUCTIONS
+------------------------------------------------
+
+1. Go to https://dev.groupme.com/ and get an access Token
+
+2. Run archive_chat.py to download the GroupMe:
+
+    - you will have to run it with access token and a group ID as arguments
+
+        E.g. run the following line for the Main chat:
+        archive_chat.py --token [paste your access token here and delete the brackets] --group-chat-id 30827774
+        
+        Running it without a group id will give you a menu listing id's for all of the chats connected to your account
+
+    - This part takes a while and will sometimes quit halfway through. Just run it a few times until it works.
+
+    - I have commented out sections that download all of the profile avatars and attachments in the chat, you can
+    un-comment those, but it takes a couple of hours to download and the attachements file is a few Gigabytes. 
+
+3. Run analysis.py
+   
+    - You will need to update the file paths in analysis.py to match the folder created by archive_chat.py:
+
+        update the message_path variable to "[chat name]/messages.json"
+        update the people_path variable to "[chat name]/people.json"
+
+4. Open analysis.csv in Excel and sort based on the different columns
+
+    - If you are feeling gutsy you can edit the code to sort it before it exports the csv, but I was too lazy.
+
+
+
+
+
+
+
+
+
+
+
+
+
