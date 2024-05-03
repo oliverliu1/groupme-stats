@@ -2,15 +2,6 @@
 
 Analyzes data from the GroupMe API for main chat statistics.
 
-## Installation
-
-Use pip to install dependencies after cloning the project:
-
-```
-git clone git@github.com:oliverliu1/groupme-stats.git
-pip install -r requirements.txt
-```
-
 ## Keepers of the Code:
 
 ### Current Keeper
@@ -20,6 +11,15 @@ Oliver Liu, Gamma Delta, 2024 - present
 | Name | Class | Time |
 | --- | --- | --- |
 | Luke Boydstun | Beta Psi | 2022 - 2023 |
+
+## Installation
+
+Use pip to install dependencies after cloning the project:
+
+```
+git clone git@github.com:oliverliu1/groupme-stats.git
+pip install -r requirements.txt
+```
 
 ## Usage
 1. Go to https://dev.groupme.com/ and get an access token
